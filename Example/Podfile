@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FlatAlert_Example', :exclusive => true do
+  pod "FlatAlert", :path => "../"
+end
+
+target 'FlatAlert_Tests', :exclusive => true do
+  pod "FlatAlert", :path => "../"
+
+  
+end
